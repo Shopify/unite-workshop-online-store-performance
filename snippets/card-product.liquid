@@ -95,20 +95,10 @@
               <span id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}" class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">{{ 'products.product.on_sale' | t }}</span>
             {%- endif -%}
 
-            {%- assign is_preorder = false -%}
-            {%- assign free_shipping = false -%}
-            {%- for tag in card_product.tags -%}
-              {%- if tag contains 'preorder' -%}
-                {%- assign is_preorder = true -%}
-              {%- endif -%}
-              {%- if tag contains 'Free Shipping' -%}
-                {%- assign free_shipping = true -%}
-              {%- endif -%}
-            {%- endfor -%}
-            {%- if is_preorder -%}
+            {%- if card_product.metafields.custom.preorder -%}
               <span id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}" class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">{{ 'products.product.preorder' | t }}</span>
             {%- endif -%}
-            {%- if free_shipping -%}
+            {%- if card_product.metafields.custom.free_shipping -%}
               <span id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}" class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">{{ 'products.product.free_shipping' | t }}</span>
             {%- endif -%}
           </div>
