@@ -21,10 +21,10 @@ Prior to joining the Workshop, we recommend that you...
 
 To help illustrate the changes we will be making to this theme code, below you will find a list of commits for each major step in the Workshop...
 
-* Properly size images - [see commit]()
-* Cumulative Layout Shift - [see commit]()
-* First Contentful Paint - [see commit]()
-* Largest Contentful Paint - [see commit]()
+* Properly size images - [see commit](https://github.com/Shopify/unite-22-online-store-performance-workshop/commit/8e356639ff7b8b3b966eb287768f1040ef75f3f1)
+* Cumulative Layout Shift - [see commit](https://github.com/Shopify/unite-22-online-store-performance-workshop/commit/fe4d981017df13f789f3ec3e24831db916f76ec2)
+* First Contentful Paint - [see commit](https://github.com/Shopify/unite-22-online-store-performance-workshop/commit/e2d067f72701c5795f2e4893947d3bd3bf931bbb)
+* Largest Contentful Paint - [see commit](https://github.com/Shopify/unite-22-online-store-performance-workshop/commit/facf17a0de5d035d8b11dbf9cf6a733d35a9e76d)
 
 ## License
 
