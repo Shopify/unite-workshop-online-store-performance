@@ -1,6 +1,6 @@
 # Unite '22 Online Store Performance Workshop
 
-Hello and welcome to the **Effective Ways to Improve Your Online Store Performance** workshop for Shopify Unite '22.
+Hello and welcome to the [**Effective Ways to Improve Your Online Store Performance**](https://shopify.github.io/workshops/codelabs/online-store-performance/index.html?index=./workshops) workshop for Shopify Unite '22.
 
 This repo is where you will find assets, code snippets, and tooling to be used in the workshop.
 
